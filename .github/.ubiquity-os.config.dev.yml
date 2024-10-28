@@ -23,19 +23,19 @@ plugins:
           setLabel: true
           fundExternalClosedIssue: false
 
-    - plugin: ishowvel/daemon-disqualifier:compute.yml@testing
-      with:
-        disqualification: "2 minutes"
-        warning: "1 minutes"
-        watch:
-          optOut:
-            - "repoName"
-            - "repoName2"
-        eventWhitelist:
-          - "review_requested"
-          - "ready_for_review"
-          - "commented"
-          - "committed"
+    # - plugin: ishowvel/daemon-disqualifier:compute.yml@testing
+    #   with:
+    #     disqualification: "2 minutes"
+    #     warning: "1 minutes"
+    #     watch:
+    #       optOut:
+    #         - "repoName"
+    #         - "repoName2"
+    #     eventWhitelist:
+    #       - "review_requested"
+    #       - "ready_for_review"
+    #       - "commented"
+    #       - "committed"
 
     - plugin: http://localhost:4001 # or the URL where the plugin is hosted
           name: start-stop
