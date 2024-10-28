@@ -24,7 +24,6 @@ plugins:
           fundExternalClosedIssue: false
 
     - plugin: ishowvel/daemon-disqualifier:compute.yml@testing
-      type: github
       with:
         disqualification: "2 minutes"
         warning: "1 minutes"
