@@ -28,6 +28,7 @@ plugins:
         with:
           disqualification: "2 minutes"
           warning: "1 minutes"
+          prioritySpeed: true
           watch:
             optOut:
               - "repoName"
