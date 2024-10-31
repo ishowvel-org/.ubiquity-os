@@ -60,7 +60,7 @@ plugins:
         with:
           registerWalletWithVerification: false
   - uses:
-      - plugin: 127.0.0.1:4003
+      - plugin: ishowvel/text-conversation-rewards:compute.yml@testing
         with:
           logLevel: "info"
           evmNetworkId: 100
