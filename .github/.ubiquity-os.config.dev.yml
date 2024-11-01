@@ -342,7 +342,7 @@ plugins:
                       pre: { score: 0, countWords: false }
                       ol: { score: 1, countWords: true }
                     wordValue: 0.1
-              permitGeneration: {}
-              githubComment:
-                post: true
-                debug: false
+            permitGeneration: {}
+            githubComment:
+              post: true
+              debug: false
