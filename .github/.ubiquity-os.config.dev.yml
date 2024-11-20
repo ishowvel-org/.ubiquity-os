@@ -64,7 +64,7 @@ plugins:
         with:
           logLevel: "debug"
           evmNetworkId: 100
-          evmPrivateEncrypted: "aAs44ITyol7x7PnCTGXvlI5igxczqIVR-kEOfL9MsUu67My8hTsN9CD6HiP8fIk7doCWD50MzyuwBIFD04QCUbBAb3nIymvnkaSypCI4jK0WEvuO9aPTz7rozC2c4asblzeZ0mPADEcTN5guKpQacdCPXbOUrtJ9l-I"
+          evmPrivateEncrypted: "qAs44ITyol7x7PnCTGXvlI5igxczqIVR-kEOfL9MsUu67My8hTsN9CD6HiP8fIk7doCWD50MzyuwBIFD04QCUbBAb3nIymvnkaSypCI4jK0WEvuO9aPTz7rozC2c4asblzeZ0mPADEcTN5guKpQacdCPXbOUrtJ9l-I"
           erc20RewardToken: "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
           dataCollection:
             maxAttempts: 10
