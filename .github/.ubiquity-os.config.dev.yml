@@ -22,7 +22,11 @@ plugins:
           publicAccessControl:
             setLabel: true
             fundExternalClosedIssue: false
-
+  - uses:
+      - plugin: http://localhost:4003
+        with:
+          model: "facebook/opt-125m"
+          openAiBaseUrl: "http://busy-monkeys-sort.loca.lt/"
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
         with:
