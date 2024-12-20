@@ -24,9 +24,7 @@ plugins:
             fundExternalClosedIssue: false
   - uses:
       - plugin: http://localhost:4003
-        with:
-          anthropicAiModel: "facebook/opt-125m"
-          anthropicAiBaseUrl: "http://busy-monkeys-sort.loca.lt/"
+        name: daemon-pull-precheck
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
         with:
