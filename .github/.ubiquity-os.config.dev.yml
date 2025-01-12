@@ -23,7 +23,8 @@ plugins:
             setLabel: true
             fundExternalClosedIssue: false
   - uses:
-      - plugin: ishowvel/daemon-pull-review:compute.yml@testing
+      # - plugin: ishowvel/daemon-pull-review:compute.yml@testing
+      - plugin: http://localhost:4003
         name: daemon-pull-precheck
         with:
           openRouterAiModel: "google/gemini-2.0-flash-thinking-exp:free"
