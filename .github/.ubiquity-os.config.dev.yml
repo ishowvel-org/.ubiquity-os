@@ -27,8 +27,8 @@ plugins:
       - plugin: http://localhost:4003
         name: daemon-pull-precheck
         with:
-          openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
-          tokenLimit: { context:  8000, completion: 300 }
+          openRouterAiModel: "google/learnlm-1.5-pro-experimental:free"
+          tokenLimit: { context:  40000, completion: 300 }
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
