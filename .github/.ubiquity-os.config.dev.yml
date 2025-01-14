@@ -28,7 +28,7 @@ plugins:
         name: daemon-pull-precheck
         with:
           openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
-          tokenLimit: { output:  8000, completion: 4000 }
+          tokenLimit: { output:  8000, completion: 300 }
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
