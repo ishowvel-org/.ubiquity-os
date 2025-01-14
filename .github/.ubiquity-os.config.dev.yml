@@ -27,8 +27,8 @@ plugins:
       - plugin: http://localhost:4003
         name: daemon-pull-precheck
         with:
-          openRouterAiModel: "google/gemini-2.0-flash-exp:free"
-          tokenLimit: { output:  1,048,576, completion: 8000 }
+          openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
+          tokenLimit: { output:  8000, completion: 4000 }
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
