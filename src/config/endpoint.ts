@@ -22,7 +22,6 @@ export const contentEvaluatorConfigurationType = Type.Object({
    */
   multipliers: Type.Array(
     Type.Object({
-      role: Type.Array(commentType),
 
 
 export type ContentEvaluatorConfiguration = Static<typeof contentEvaluatorConfigurationType>;
