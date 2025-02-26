@@ -20,8 +20,6 @@ export const contentEvaluatorConfigurationType = Type.Object({
   /**
    * Multipliers applied to different types of comments
    */
-  multipliers: Type.Array(
-    Type.Object({
 
 
 export type ContentEvaluatorConfiguration = Static<typeof contentEvaluatorConfigurationType>;
