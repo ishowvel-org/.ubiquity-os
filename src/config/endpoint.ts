@@ -23,17 +23,6 @@ export const contentEvaluatorConfigurationType = Type.Object({
   multipliers: Type.Array(
     Type.Object({
       role: Type.Array(commentType),
-      relevance: Type.Optional(Type.Number()),
-    }),
-    {
-      default: [
-        {
-          role: ["ISSUE_SPECIFICATION"],
-          relevance: 1,
-        },
-      ],
-    }
-  ),
-});
+
 
 export type ContentEvaluatorConfiguration = Static<typeof contentEvaluatorConfigurationType>;
