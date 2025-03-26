@@ -106,6 +106,8 @@ plugins:
             reviewIncentivizer:
               baseRate: 100
               conclusiveReviewCredit: 25
+            simplificationIncentivizer:
+              simplificationRate: 100
             formattingEvaluator:
               wordCountExponent: 0.85
               multipliers:
