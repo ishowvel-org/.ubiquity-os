@@ -33,8 +33,7 @@ plugins:
       - plugin: http://localhost:4009
         name: command-rewrite
         with:
-          openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
-          tokenLimit: { context:  8000, completion: 300 }
+          openRouterAiModel: "nvidia/llama-3.1-nemotron-70b-instruct:free"
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
