@@ -30,7 +30,7 @@ plugins:
           openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
           tokenLimit: { context:  8000, completion: 300 }
   - uses:
-      - plugin: http://localhost:4009
+      - plugin: ishowvel/daemon-spec-rewriter:compute.yml@development
         name: command-rewrite
         with:
           openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
