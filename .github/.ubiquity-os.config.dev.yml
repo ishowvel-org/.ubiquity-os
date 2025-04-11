@@ -34,7 +34,7 @@ plugins:
       # - plugin: http://localhost:4009
         name: command-rewrite
         with:
-          openRouterAiModel: "google/gemini-2.5-pro-exp-03-25:free"
+          openRouterAiModel: "nvidia/llama-3.1-nemotron-ultra-253b-v1:free"
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
