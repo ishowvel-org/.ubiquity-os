@@ -35,6 +35,14 @@ plugins:
         name: command-rewrite
         with:
           openRouterAiModel: "deepseek/deepseek-chat-v3-0324:free"
+          eventWhiteList:
+            - issues.labeled
+            - issues.assigned
+            - issues.unassigned
+            - issues.edited
+            - issues.reopened
+            - issues.unlabeled
+            - issue_comment.created
 
   - uses:
       - plugin: ishowvel/daemon-disqualifier:compute.yml@testing-2
