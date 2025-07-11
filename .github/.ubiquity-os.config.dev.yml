@@ -27,7 +27,7 @@ plugins:
       # - plugin: http://localhost:4003
         name: daemon-pull-review
         with:
-          openRouterAiModel: "meta-llama/llama-3.1-70b-instruct:free"
+          openRouterAiModel: "meta-llama/llama-3.1-405b-instruct:free"
           tokenLimit: { context:  8000, completion: 300 }
   - uses:
       # - plugin: ishowvel/daemon-spec-rewriter:compute.yml@testing
